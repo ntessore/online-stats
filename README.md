@@ -7,6 +7,12 @@ The `online_mean` package contains a single function `add_sample` which updates
 the array for the sample mean, as well as optionally the sample variance and the
 sample covariance matrix.
 
+The package has no dependencies, as the `add_sample` function works with any
+input data type that supports in-place addition and fancy slicing.
+
+Usage
+-----
+
 ```py
 import numpy as np
 
