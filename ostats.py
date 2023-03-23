@@ -2,7 +2,7 @@
 # license: MIT
 '''online algorithm for mean, variance, and covariance'''
 
-__version__ = '2023.1.1'
+__version__ = '2023.3.23'
 
 
 def add_sample(n, x, mu, *, var=None, cov=None):
