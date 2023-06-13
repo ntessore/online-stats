@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "ostats"
+name = "online-stats"
 authors = [{name = "Nicolas Tessore", email = "n.tessore@ucl.ac.uk"}]
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -16,8 +16,8 @@ requires-python = ">=3.6"
 dynamic = ["version", "description"]
 
 [project.urls]
-Home = "https://github.com/ntessore/ostats"
-Issues = "https://github.com/ntessore/ostats/issues"
+Home = "https://github.com/ntessore/online-stats"
+Issues = "https://github.com/ntessore/online-stats/issues"
 
 [tool.flit.sdist]
 exclude = [".*"]
